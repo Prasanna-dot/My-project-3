@@ -1,0 +1,1216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+  .no-js #loader{
+    display: none;
+  }
+  
+  .js #loader{
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+  }
+  
+  .se-pre-con {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      z-index: 1000122222222222;
+      background:#0d0d0d;
+    overflow: hidden;
+  }
+  
+  #overlayer {
+    width: 80px;
+    height: 0px;
+    opacity: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      z-index:1000122222222224;
+      background:#ffffff;
+    animation: loader-inner 2s infinite;
+    -webkit-animation: loader-inner 2s infinite;
+  }
+  @keyframes loader-inner {
+    0% {
+      margin-top: 80vh;
+      height: 0px;
+      opacity: 0;
+    }
+  
+    50% {
+      height:  100px;
+      opacity: 1;
+    }
+    
+    100% {
+      margin-top: 25vh;
+      height: 0px;
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes loader-inner {
+    0% {
+      margin-top: 80vh;
+      height: 0px;
+      opacity: 0;
+    }
+    
+    50% {
+      height:  100px;
+      opacity: 1;
+    }
+      
+      
+    100% {
+      margin-top: 25vh;
+      height: 0px;
+      opacity: 0;
+    }
+  }
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #0d0d0d;
+}
+
+.rom {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.col-8 {
+  position: relative;
+    width: 100%;
+    height: 65vh;
+    margin: 0;
+    padding: 0;
+}
+.images{
+  position: relative;
+  width:100%;
+  height: 65vh;
+  overflow: hidden;
+}
+.images #ott{
+  list-style: none;
+}
+#ott li:nth-child(1) img{
+  position: absolute;
+  width: 200px;
+  height: auto;
+  margin-top: 0vh;
+  margin-left: 0%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 12s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-duration: 12s;
+  -webkit-animation-delay: 0s;
+  animation-name: b ;
+  -webkit-animation-name: b ;
+  transform: translateX(1000%);
+  -webkit-transform: translateX(1000%);
+}
+@keyframes b {
+
+  from{
+    transform: translateX(1000%);
+
+  }
+
+  to{
+    transform: translateX(-500%);
+      
+  }
+  }
+
+@-webkit-keyframes b{
+  from{
+    -webkit-transform: translateX(1000%);
+
+  }
+
+  to{
+    -webkit-transform: translateX(-500%);
+      
+  }
+}
+#ott li:nth-child(2) img{
+position: absolute;
+overflow: hidden;
+width: 200px;
+height: auto;
+bottom: 0vh;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 20s;
+animation-delay: 0s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-webkit-animation-duration: 20s;
+-webkit-animation-delay: 0s;
+animation-name: b;
+-webkit-animation-name: b;
+transform: translateX(1000%);
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(3) img{
+position: absolute;
+overflow: hidden;
+width: 150px;
+height: auto;
+margin-top: 40vh;
+margin-left: 0%;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 20s;
+animation-delay: 6s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-webkit-animation-duration: 20s;
+-webkit-animation-delay: 6s;
+animation-name: b;
+-webkit-animation-name: b;
+transform: translateX(1000%);
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(4) img{
+position: absolute;
+overflow: hidden;
+width: 150px;
+height: auto;
+margin-bottom: 0vh;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 22s;
+animation-delay: 8s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-webkit-animation-duration: 22s;
+-webkit-animation-delay: 8s;
+animation-name: b;
+transform: translateX(1000%);
+-webkit-animation-name: b;
+-webkit-transform: translateX(1000%);
+}
+
+#ott li:nth-child(5) img{
+position: absolute;
+overflow: hidden;
+width: 150px;
+height: auto;
+bottom: 0;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 25s;
+animation-delay: 10s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 10s;
+animation-name: b;
+-webkit-animation-name: b;
+transform: translateX(1000%);
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(6) img{
+position: absolute;
+overflow: hidden;
+width: 150px;
+height: auto;
+top: 10vh;
+animation-iteration-count: infinite;
+animation-timing-function: initial;
+animation-duration: 25s;
+animation-delay: 13s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: initial;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 13s;
+animation-name: b;
+transform: translateX(1000%);
+-webkit-animation-name: b;
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(7) img{
+position: absolute;
+overflow: hidden;
+width: 150px;
+height: auto;
+margin-top: 20vh;
+margin-left: 0%;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 25s;
+animation-delay:16s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 16s;
+animation-name: b;
+transform: translateX(1000%);
+-webkit-animation-name: b;
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(8) img{
+position: absolute;
+overflow: hidden;
+width: 250px;
+height: auto;
+margin-bottom: 0vh;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 25s;
+animation-delay: 18s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 18s;
+animation-name: b;
+transform: translateX(1000%);
+-webkit-animation-name: b;
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(9) img{
+position: absolute;
+overflow: hidden;
+width: 250px;
+height: auto;
+bottom: 0vh;
+margin-left: 0%;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 25s;
+animation-delay: 20s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 20s;
+animation-name: b;
+transform: translateX(1000%);
+-webkit-animation-name: b;
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(10) img{
+position: absolute;
+overflow: hidden;
+width: 150px;
+height: auto;
+top: 0vh;
+animation-iteration-count: infinite;
+animation-timing-function: initial;
+animation-duration: 25s;
+animation-delay: 27s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: initial;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 27s;
+animation-name: b;
+transform: translateX(1000%);
+-webkit-animation-name: b;
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(11) img{
+position: absolute;
+overflow: hidden;
+width: 150px;
+height: auto;
+bottom: 0vh;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 25s;
+animation-delay: 19s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 19s;
+animation-name: b;
+transform: translateX(1000%);
+-webkit-animation-name: b;
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(12) img{
+position: absolute;
+overflow: hidden;
+width: 150px;
+height: auto;
+margin-bottom: 0vh;
+animation-iteration-count: infinite;
+animation-timing-function: initial;
+animation-duration: 25s;
+animation-delay: 16s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: initial;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 16s;
+animation-name: b;
+transform: translateX(1000%);
+-webkit-animation-name: b;
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(13) img{
+position: absolute;
+overflow: hidden;
+width: 150px;
+height: auto;
+top: 20vh;
+left: 0%;
+animation-iteration-count: infinite;
+animation-timing-function: initial;
+animation-duration: 25s;
+animation-delay: 42s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: initial;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 42s;
+animation-name: bx ;
+transform: translateX(1000%);
+-webkit-animation-name: bx ;
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(14) img{
+position: absolute;
+overflow: hidden;
+width: 150px;
+height: auto;
+bottom: 0vh;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 25s;
+animation-delay: 30s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 30s;
+animation-name: bx ;
+transform: translateX(1000%);
+-webkit-animation-name: bx ;
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(15) img{
+position: absolute;
+overflow: hidden;
+width: 250px;
+height: auto;
+top: 20vh;
+left: 0%;
+animation-iteration-count: infinite;
+animation-timing-function: initial;
+animation-duration: 25s;
+animation-delay: 15s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: initial;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 15s;
+animation-name: bx ;
+transform: translateX(1000%);
+-webkit-animation-name: bx ;
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(16) img{
+position: absolute;
+overflow: hidden;
+width: 250px;
+height: auto;
+bottom: 0vh;
+animation-iteration-count: infinite;
+animation-timing-function: initial;
+animation-duration: 25s;
+animation-delay: 18s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: initial;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay:18s;
+animation-name: bx ;
+transform: translateX(1000%);
+-webkit-animation-name: bx ;
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(17) img{
+position: absolute;
+overflow: hidden;
+width: 150px;
+height: auto;
+top: 10vh;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 25s;
+animation-delay: 22s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 22s;
+animation-name: bx ;
+transform: translateX(1000%);
+-webkit-animation-name: bx ;
+-webkit-transform: translateX(1000%);
+}#ott li:nth-child(18) img{
+position: absolute;
+overflow: hidden;
+width: 150px;
+height: auto;
+bottom: 0vh;
+animation-iteration-count: infinite;
+animation-timing-function: initial;
+animation-duration: 25s;
+animation-delay: 23s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: initial;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 23s;
+animation-name: bx ;
+transform: translateX(1000%);
+-webkit-animation-name: bx ;
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(19) img{
+position: absolute;
+overflow: hidden;
+width: 250px;
+height: auto;
+top: 0vh;
+margin-left: 0%;
+animation-iteration-count: infinite;
+animation-timing-function: initial;
+animation-duration: 25s;
+animation-delay: 26s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: initial;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 26s;
+animation-name: bx ;
+transform: translateX(1000%);
+-webkit-animation-name: bx ;
+-webkit-transform: translateX(1000%);
+}
+#ott li:nth-child(20) img{
+position: absolute;
+overflow: hidden;
+width: 250px;
+height: auto;
+bottom: 0vh;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 25s;
+animation-delay: 25s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-webkit-animation-duration: 25s;
+-webkit-animation-delay: 25s;
+animation-name: bx ;
+transform: translateX(1000%);
+-webkit-animation-name: bx ;
+-webkit-transform: translateX(1000%);
+}
+.col-4 {
+    position: relative;
+    width: 100%;
+    height: 35vh;
+    text-align: center;
+}
+.logo{
+    position: absolute;
+    top: -20vh;
+    width: 150px;
+    height: 20vh;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    animation-name: logo;
+    animation-delay: 1.7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: initial;
+    animation-duration: 1s;
+    z-index: 10;
+}
+@keyframes logo{
+  0%{
+    top: -20vh;
+  }
+  100%{
+    top: 0vh;
+  }
+}
+.logo img{
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width:425px){
+    .logo{
+        position: absolute;
+        top: 0;
+        width: 100px;
+        height: 15vh;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        animation-name: logo;
+        animation-delay: 1.7s;
+        animation-fill-mode: forwards;
+        animation-timing-function: initial;
+        animation-duration: 1s;
+    }
+    .logo img{
+        height: 15vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-height:425px){
+    .logo{
+        position: absolute;
+        top: 0;
+        width: 20%;
+        height: 23vh;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        animation-name: logo;
+        animation-delay: 1.7s;
+        animation-fill-mode: forwards;
+        animation-timing-function: initial;
+        animation-duration: 1s;
+    }
+    .logo img{
+        height: 23vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.name{
+    position: absolute;
+    top: 40vh;
+    left: 21.5%;
+    width: 57%;
+    height: auto;
+    z-index: 10;
+    mix-blend-mode: exclusion;
+}
+
+.name h1{
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Panchang', sans-serif;
+    text-transform: uppercase;
+    mix-blend-mode: exclusion;
+}
+.name h1 span.p{
+  font-size: 0vw;
+  animation-name: p;
+  animation-delay: 1.9s;
+  animation-fill-mode: forwards;
+  animation-timing-function: initial;
+  animation-duration: 1s;
+    mix-blend-mode: exclusion;
+}
+@keyframes p{
+  0%{
+    font-size: 0vw;
+  }
+  100%{
+    font-size: 8vw;
+  }
+}
+.name h1 span.r{
+  font-size: 0vw;
+  animation-name: p;
+  animation-delay: 2.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: initial;
+  animation-duration: 1s;
+}
+.name h1 span.i{
+  font-size: 0vw;
+  animation-name: p;
+  animation-delay: 2.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: initial;
+  animation-duration: 1s;
+}
+.name h1 span.s{
+  font-size: 0vw;
+  animation-name: p;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: initial;
+  animation-duration: 1s;
+}
+.name h1 span.t{
+  font-size: 0vw;
+  animation-name: p;
+  animation-delay: 2.7s;
+  animation-fill-mode: forwards;
+  animation-timing-function: initial;
+  animation-duration: 1s;
+}
+.name h1 span.i1{
+  font-size: 0vw;
+  animation-name: p;
+  animation-delay: 2.9s;
+  animation-fill-mode: forwards;
+  animation-timing-function: initial;
+  animation-duration: 1s;
+}
+.name h1 span.n{
+  font-size: 0vw;
+  animation-name: p;
+  animation-delay: 3.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: initial;
+  animation-duration: 1s;
+}
+.name h1 span.e{
+  font-size: 0vw;
+  animation-name: p;
+  animation-delay: 3.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: initial;
+  animation-duration: 1s;
+}
+@media only screen and (max-width:425px){
+    .name{
+        position: absolute;
+        top: 40vh;
+        left: 14.2%;
+        width: 71.5%;
+        height: auto;
+    }
+    .name h1{
+        color: #ffffff;
+        text-align: center;
+        font-size: 10vw;
+        padding: 5px;
+        font-family: 'Panchang', sans-serif;
+        text-transform: uppercase;
+        mix-blend-mode: exclusion;
+    }
+}
+.element{
+  position: relative;
+  top: 2.5vh;
+  left: 26.5%;
+  height: 30vh;
+  width: 47%;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+@media only screen and (max-width:425px){
+  .element{
+    position: relative;
+    top: 2.5vh;
+    left: 15%;
+    height: 30vh;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+  }
+}
+.e1{
+  position: relative;
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+}
+.tagline{
+  position: absolute;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  height: 10vh;
+  font-weight: 500;
+  animation-name: tag;
+  animation-delay: 2.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: initial;
+  animation-duration: 1s;
+  opacity: 0;
+}
+@keyframes tag{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@media only screen and (max-width:425px){
+  .tagline{
+    position: absolute;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 10vh;
+    font-weight: 400;
+  }
+}
+
+.e2{
+  position: relative;
+  width: 100%;
+  height: 20vh;
+}
+.button{
+  background: transparent;
+  top: 3vh;
+  position: relative;
+  margin: 0 20px;
+  color: #ffffff;
+  border: 2px solid #fff;
+  height: 44px;
+  font-size: 0vmax;
+  width: 0;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  transition: all 1s;
+  box-shadow: inset 0px 0px 0px #fff;
+  animation-name: button;
+  animation-delay: 2.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: initial;
+  animation-duration: 1s;
+}
+@keyframes button{
+  0%{
+    width: 0;
+  }
+  50%{
+    width: 30%;
+    font-size: 0vmax;
+  }
+  100%{
+    width: 30%;
+    font-size: 1.3vmax;
+  }
+}
+.button:hover{
+  color: #0d0d0d;
+  box-shadow: inset 300px 0px 0px #fff;
+}
+@media only screen and (max-width:1200px){
+  .button{
+    background: transparent;
+    top: 3vh;
+    position: relative;
+    color: #ffffff;
+    border: 2px solid #fff;
+    font-size: 0vmax;
+    margin: 0 15px;
+    width: 0;
+    height: 44px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: all 1s;
+    box-shadow: inset 0px 0px 0px #fff;
+    animation-name: buttona;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: initial;
+    animation-duration: 1s;
+    -webkit-animation-name: buttona;
+    -webkit-animation-delay: 2.3s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: initial;
+    -webkit-animation-duration: 1s;
+  }
+  @keyframes buttona{
+    0%{
+      width: 0;
+    }
+    50%{
+      width: 40%;
+      font-size: 0vmax;
+    }
+    100%{
+      width: 40%;
+      font-size: 1.3vmax;
+    }
+  }
+  @-webkit-keyframes buttona{
+    0%{
+      width: 0;
+    }
+    50%{
+      width: 40%;
+      font-size: 0vmax;
+    }
+    100%{
+      width: 40%;
+      font-size: 1.3vmax;
+    }
+  }
+  .button:hover{
+    color: #0d0d0d;
+    box-shadow: inset 300px 0px 0px #fff;
+  }
+}
+@media only screen and (max-width:992px){
+  .button{
+    background: transparent;
+    top: 3vh;
+    position: relative;
+    margin: 0 15px;
+    color: #ffffff;
+    border: 2px solid #fff;
+    font-size: 0vmax;
+    width: 0;
+    height: 36px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: all 1s;
+    box-shadow: inset 0px 0px 0px #fff;
+    animation-name: buttona;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: initial;
+    animation-duration: 1s;
+    -webkit-animation-name: buttona;
+    -webkit-animation-delay: 2.3s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: initial;
+    -webkit-animation-duration: 1s;
+  }
+  @keyframes buttona{
+    0%{
+      width: 0;
+    }
+    50%{
+      width: 40%;
+      font-size: 0vmax;
+    }
+    100%{
+      width: 40%;
+      font-size: 1.3vmax;
+    }
+  }
+  @-webkit-keyframes buttona{
+    0%{
+      width: 0;
+    }
+    50%{
+      width: 40%;
+      font-size: 0vmax;
+    }
+    100%{
+      width: 40%;
+      font-size: 1.3vmax;
+    }
+  }
+  .button:hover{
+    color: #0d0d0d;
+    box-shadow: inset 300px 0px 0px #fff;
+  }
+}
+@media only screen and (max-width:576px){
+  .button{
+    background: transparent;
+    top: 3vh;
+    position: relative;
+    margin: 0 10px;
+    color: #ffffff;
+    border: 2px solid #fff;
+    font-size: 0vmax;
+    width: 0;
+    height: 32px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: all 1s;
+    box-shadow: inset 0px 0px 0px #fff;
+    animation-name: buttona;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: initial;
+    animation-duration: 1s;
+    -webkit-animation-name: buttona;
+    -webkit-animation-delay: 2.3s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: initial;
+    -webkit-animation-duration: 1s;
+  }
+  @keyframes buttona{
+    0%{
+      width: 0;
+    }
+    50%{
+      width: 40%;
+      font-size: 0vmax;
+    }
+    100%{
+      width: 40%;
+      font-size: 1.3vmax;
+    }
+  }
+  @-webkit-keyframes buttona{
+    0%{
+      width: 0;
+    }
+    50%{
+      width: 40%;
+      font-size: 0vmax;
+    }
+    100%{
+      width: 40%;
+      font-size: 1.3vmax;
+    }
+  }
+  .button:hover{
+    color: #0d0d0d;
+    box-shadow: inset 300px 0px 0px #fff;
+  }
+}
+
+.button1{
+  background: transparent;
+  top: 3vh;
+  position: relative;
+  margin: 0 20px;
+  color: #ffffff;
+  border: 2px solid #fff;
+  height: 44px;
+  font-size: 0vmax;
+  width: 0;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  transition: all 1s;
+  box-shadow: inset 0px 0px 0px #fff;
+  animation-name: button1;
+  animation-delay: 2.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: initial;
+  animation-duration: 1s;
+}
+@keyframes button1{
+  0%{
+    width: 0;
+  }
+  50%{
+    width: 30%;
+    font-size: 0vmax;
+  }
+  100%{
+    width: 30%;
+    font-size: 1.3vmax;
+  }
+}
+.button1:hover{
+  color: #0d0d0d;
+  box-shadow: inset 300px 0px 0px #fff;
+}
+@media only screen and (max-width:1200px){
+  .button1{
+    background: transparent;
+    top: 3vh;
+    position: relative;
+    margin: 0 15px;
+    color: #ffffff;
+    border: 2px solid #fff;
+    font-size: 0vmax;
+    width: 0;
+    height: 44px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: all 1s;
+    box-shadow: inset 0px 0px 0px #fff;
+    animation-name: buttona;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: initial;
+    animation-duration: 1s;
+    -webkit-animation-name: buttona;
+    -webkit-animation-delay: 2.3s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: initial;
+    -webkit-animation-duration: 1s;
+  }
+  @keyframes buttona{
+    0%{
+      width: 0;
+    }
+    50%{
+      width: 40%;
+      font-size: 0vmax;
+    }
+    100%{
+      width: 40%;
+      font-size: 1.3vmax;
+    }
+  }
+  @-webkit-keyframes buttona{
+    0%{
+      width: 0;
+    }
+    50%{
+      width: 40%;
+      font-size: 0vmax;
+    }
+    100%{
+      width: 40%;
+      font-size: 1.3vmax;
+    }
+  }
+  .button1:hover{
+    color: #0d0d0d;
+    box-shadow: inset 300px 0px 0px #fff;
+  }
+}
+@media only screen and (max-width:992px){
+  .button1{
+    background: transparent;
+    top: 3vh;
+    position: relative;
+    margin: 0 15px;
+    color: #ffffff;
+    border: 2px solid #fff;
+    font-size: 0vmax;
+    width: 0;
+    height: 36px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: all 1s;
+    box-shadow: inset 0px 0px 0px #fff;
+    animation-name: buttona;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: initial;
+    animation-duration: 1s;
+    -webkit-animation-name: buttona;
+    -webkit-animation-delay: 2.3s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: initial;
+    -webkit-animation-duration: 1s;
+  }
+  @keyframes buttona{
+    0%{
+      width: 0;
+    }
+    50%{
+      width: 40%;
+      font-size: 0vmax;
+    }
+    100%{
+      width: 40%;
+      font-size: 1.3vmax;
+    }
+  }
+  @-webkit-keyframes buttona{
+    0%{
+      width: 0;
+    }
+    50%{
+      width: 40%;
+      font-size: 0vmax;
+    }
+    100%{
+      width: 40%;
+      font-size: 1.3vmax;
+    }
+  }
+  .button1:hover{
+    color: #0d0d0d;
+    box-shadow: inset 300px 0px 0px #fff;
+  }
+}
+@media only screen and (max-width:576px){
+  .button1{
+    background: transparent;
+    top: 3vh;
+    position: relative;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #fff;
+    font-size: 0vmax;
+    width: 0;
+    height: 32px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: all 1s;
+    box-shadow: inset 0px 0px 0px #fff;
+    animation-name: buttona1;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: initial;
+    animation-duration: 1s;
+    -webkit-animation-name: buttona1;
+    -webkit-animation-delay: 2.3s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: initial;
+    -webkit-animation-duration: 1s;
+  }
+  @keyframes buttona1{
+    0%{
+      width: 0;
+    }
+    50%{
+      width: 40%;
+      font-size: 0vmax;
+    }
+    100%{
+      width: 40%;
+      font-size: 1.3vmax;
+    }
+  }
+  @-webkit-keyframes buttona1{
+    0%{
+      width: 0;
+    }
+    50%{
+      width: 40%;
+      font-size: 0vmax;
+    }
+    100%{
+      width: 40%;
+      font-size: 1.3vmax;
+    }
+  }
+  .button1:hover{
+    color: #0d0d0d;
+    box-shadow: inset 300px 0px 0px #fff;
+  }
+}
